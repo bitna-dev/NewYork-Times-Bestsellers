@@ -6,7 +6,7 @@ import Navigation from "@components/Navigation";
 
 const luckiest_guy = Luckiest_Guy({
   variable: "--font-luckiest",
-  weight: "400",
+  weight: ["400"],
   display: "swap",
 });
 
