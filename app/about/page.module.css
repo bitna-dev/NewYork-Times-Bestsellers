@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-bottom: 1px solid #999;
+  padding: 4rem;
+}
+
+.container h1 {
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.container p {
+  font-size: 15px;
+}

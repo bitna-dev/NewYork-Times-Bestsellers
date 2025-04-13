@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  border: 1px dashed #999;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+}
+.title {
+  font-size: 20px;
+}
+.author {
+  font-size: 14px;
+  color: tomato;
+}
+
+.container a {
+  padding: 1rem 0;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.container a:hover {
+  scale: 1.2;
+}
